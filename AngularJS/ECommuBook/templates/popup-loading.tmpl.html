@@ -1,0 +1,21 @@
+<md-dialog>
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools" style="text-align: center;">
+        <div style="text-align: center;">{{subMenuProfileObject.PageTitle}}</div>
+        <span flex></span>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content" ng-click="onItemClicked($event);">
+        <div layout="row" layout-align="center">
+          <img class="enlarge_item_image" style="margin: auto; max-width: 80%;max-height: 60%;" alt="Loading" src="img/icons/circle-loading.gif" />
+        </div>
+        <h3> {{subMenuProfileObject.Current}}: {{downloaded}} / {{subMenuProfileObject.Total}}: {{total}}</h3>
+        <h3>{{subMenuProfileObject.Percentage}}: {{precentage}}%</h3>
+        <h3>{{subMenuProfileObject.LoadingMessage}}</h3>
+      </div>
+    </md-dialog-content>
+  </form>
+</md-dialog>

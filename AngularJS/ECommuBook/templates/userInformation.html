@@ -1,0 +1,50 @@
+<ion-view cache-view="false" view-title={{menuProfileTitle.UserInformation}}>
+  <ion-content>
+    <div ng-controller="UserInfoCtrl" class="md-padding" ng-cloak>
+      <md-card>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{menuProfileTitle.UserInformation}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <h1 class="md-title">{{subMenuProfileGeneral.Nickname}}: {{userProfile.DisplayName}}</h1>
+          <h1 class="md-title">{{subMenuProfileGeneral.UserID}}: {{userProfile.ID}}</h1>
+          <h1 class="md-title" ng-show="isBinded">{{subMenuProfileGeneral.UserEmail}}: {{userProfile.Email}}</h1>
+          <h1 class="md-title" ng-repeat="displayLanguage in DisplayLanguageList" ng-if="displayLanguage.value == userProfile.DISPLAY_LANGUAGE">
+            {{subMenuProfileGeneral.DisplayLanguage}}: {{displayLanguage.name}}
+          </h1>
+          <h1 class="md-title" ng-repeat="speechLanguage in SpeechLanguageList" ng-if="speechLanguage.value == userProfile.SPEECH_LANGUAGE_CODE && speechLanguage.language == userProfile.DISPLAY_LANGUAGE">
+            {{subMenuProfileGeneral.SpeechLanguage}}: {{speechLanguage.name}}
+          </h1>
+          <h1 class="md-title" ng-repeat="speakGender in GenderList" ng-if="speakGender.value == userProfile.SPEECH_GENDER && speakGender.language == userProfile.SPEECH_LANGUAGE_CODE">
+            {{subMenuProfileGeneral.SpeakerGender}}: {{speakGender.name}}
+          </h1>
+        </md-card-content>
+      </md-card>
+      <md-card ng-hide="isBinded">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{menuProfileTitle.UserLogin}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <h1 class="md-title">{{subMenuProfileObject.NoticeLogin}}</h1>
+          <md-button class="md-raised" ui-sref="app.login">{{menuProfileTitle.UserLogin}}</md-button>
+        </md-card-content>
+    </md-card>
+      <md-card ng-if="testMode.checked">
+    	    <md-card-title>
+    	      <md-card-title-text>
+              <span class="md-headline">{{subMenuProfileObject.VoiceConversion}}</span>
+    	      </md-card-title-text>
+    	    </md-card-title>
+    	    <md-card-content>
+            <h1 class="md-title">{{subMenuProfileObject.Notice1}}</h1>
+            <h1 class="md-title">{{subMenuProfileObject.Notice2}}</h1>
+            <md-button class="md-raised" ui-sref="app.voiceModel">{{subMenuProfileObject.VoiceConversion}}</md-button>
+    	    </md-card-content>
+    	</md-card>
+    </div>
+  </ion-content>
+</ion-view>

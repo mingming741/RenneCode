@@ -1,0 +1,45 @@
+<ion-view cache-view="true" view-title="{{menuProfileTitle.Search}}">
+  <ion-content>
+    <div class="container-fluid" ng-controller="SearchCtrl" ng-cloak>
+      <md-card>
+        <md-card-title>
+          <span class="md-headline">{{subMenuProfileObject.SearchGuide1}}</span><span flex></span>
+        </md-card-title>
+        <md-card-content>
+          <span style="font-size:{{itemNormalFontSize}}px;line-height:{{itemNormalFontSize}}px;" class="md-title" ng-repeat="displayLanguage in DisplayLanguageList" ng-if="displayLanguage.value == userProfile.DISPLAY_LANGUAGE">
+            {{subMenuProfileGeneral.DisplayLanguage}}: {{displayLanguage.name}}
+          </span>
+        </md-card-content>
+        <md-card-content>
+          <md-button class="md-raised" ng-click=searchRecording()>{{RecordState}}</md-button>
+          <md-button class="md-raised" ng-click=checkRecord() ng-disabled="!isRecorded">{{subMenuProfileGeneral.Check}}</md-button>
+          <md-button class="md-raised" ng-click=uploadRecord() ng-disabled="!isRecorded">{{subMenuProfileGeneral.Upload}}</md-button>
+          <md-input-container style="float:right">
+            <label>Range</label>
+            <md-select ng-model="CategoryName" required>
+              <md-option ng-value="categoryName" ng-repeat="categoryName in CategoryRange">{{categoryName}}</md-option>
+            </md-select>
+          </md-input-container>
+        </md-card-content>
+      </md-card>
+
+      <md-card ng-show="isShowResult">
+        <md-card-title>
+          <span class="md-headline">{{subMenuProfileObject.SearchResult}}</span><span flex></span>
+        </md-card-title>
+        <h1></h1>
+        <md-card-content ng-repeat="resultObject in resultObjects" ng-if="$index < maxResultWordsDisplay">
+          <div ng-repeat="translation in resultObject.object.DisplayMultipleLanguage" ng-if="translation.Language == userProfile.DISPLAY_LANGUAGE && resultObject.type == 'category'">
+            <ion-item href="#/app/category/{{resultObject.object.ID}}" class='itemNormalText' style="font-size : {{itemNormalFontSize}}px;">{{translation.Text}}</ion-item>
+          </div>
+          <div ng-repeat="translation in resultObject.object.DisplayMultipleLanguage" ng-if="translation.Language == userProfile.DISPLAY_LANGUAGE && resultObject.type == 'item'">
+            <ion-item href="#/app/category/{{resultObject.parent.ID}}" class='itemNormalText' style="font-size : {{itemNormalFontSize}}px;" ng-click="resultGuide(resultObject)">{{translation.Text}}</ion-item>
+          </div>
+          <div ng-repeat="translation in resultObject.object.DisplayMultipleLanguage" ng-if="translation.Language == userProfile.DISPLAY_LANGUAGE && resultObject.type == 'sentence'">
+            <ion-item href="#/app/sentence" class='itemNormalText' style="font-size : {{itemNormalFontSize}}px;" ng-click="resultGuide(resultObject)">{{translation.Text}}</ion-item>
+          </div>
+        </md-card-content>
+      </md-card>
+    </div>
+  </ion-content>
+</ion-view>

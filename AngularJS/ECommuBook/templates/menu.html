@@ -1,0 +1,55 @@
+<ion-side-menus enable-menu-with-back-views="true" >
+  <ion-side-menu-content >
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+          <button class="button button-icon button-clear ion-home" ui-sref="app.welcome"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">{{userProfile.DisplayName}}</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close href="#/app/welcome">
+          <div ng-repeat="operation in menuProfile.Operations" ng-if="operation.OperationType == 'Menu' && isShowDisplayName.checked">
+            <div ng-repeat="translation in operation.DisplayMultipleLanguage" ng-if="translation.Language == userProfile.DISPLAY_LANGUAGE">
+              <span style="line-height:{{itemNormalFontSize}}px;font-size:{{itemNormalFontSize}}px">{{translation.Text}} </span>
+            </div>
+          </div>
+        </ion-item>
+        <ion-item menu-close href="#/app/sentence">
+          <img style="max-width: 90%" src="img/icons/Sentence.png" />
+          <div ng-repeat="operation in menuProfile.Operations" ng-if="operation.OperationType == 'Sentence' && isShowDisplayName.checked">
+            <div ng-repeat="translation in operation.DisplayMultipleLanguage" ng-if="translation.Language == userProfile.DISPLAY_LANGUAGE">
+              <span style="line-height:{{itemNormalFontSize}}px;font-size:{{itemNormalFontSize}}px">{{translation.Text}} </span>
+            </div>
+          </div>
+        </ion-item>
+        <ion-item ng-repeat="category in userProfile.Categories" href="#/app/category/{{category.ID}}" ng-click="onCategoryClicked(category.ID)">
+          <img style="max-width: 90%" src='{{ImagePath}}/{{category.ID}}.jpg' />
+          <div ng-repeat="translation in category.DisplayMultipleLanguage" ng-if="translation.Language == userProfile.DISPLAY_LANGUAGE && isShowDisplayName.checked">
+            <span style="line-height:{{itemNormalFontSize}}px;font-size:{{itemNormalFontSize}}px">{{translation.Text}} </span>
+          </div>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+
+  <ion-side-menu side="right" width="200">
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Right Menu</h1>
+      </ion-header-bar>
+      <ion-content>
+        <ion-toggle ng-model="isShowDisplayName.checked">Display Text</ion-toggle>
+        <ion-toggle ng-model="testMode.checked">Hide Test</ion-toggle>
+      </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

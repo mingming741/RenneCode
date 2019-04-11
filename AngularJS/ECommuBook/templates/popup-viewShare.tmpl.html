@@ -1,0 +1,39 @@
+<md-dialog>
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools" style="text-align: center;">
+        <div>{{subMenuProfileObject.OnlineContent}}: {{selectedCategoryName}}</div>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+
+      <md-card>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline"> {{subMenuProfileObject.WordItems}} </span>
+          </md-card-title-text>
+        </md-card-title>
+
+        <md-card-content>
+          <div ng-repeat="item in categoryCloneContent.Items" style="float:left;width:{{itemNormalPicWidth}}%">
+            <div style="text-align:center;border:1px black dashed;height:{{itemNormalPicSize}}px;">
+              <img class='itemImage' ng-src='{{ImagePath}}/{{item.ID}}.jpg' />
+              <div ng-repeat="translation in item.DisplayMultipleLanguage" ng-if="translation.Language == userProfile.DISPLAY_LANGUAGE">
+                <span class='itemNormalText' style="font-size : {{itemNormalFontSize}}px;line-height: {{itemNormalFontSize}}px;">{{translation.Text}}</span>
+              </div>
+            </div>
+          </div>
+        </md-card-content>
+      </md-card>
+      <md-card>
+        <md-card-title>
+          <md-button ng-click="downloadToLocal($event);">{{subMenuProfileGeneral.Download}}</md-button>
+        </md-card-title>
+      </md-card>
+    </md-dialog-content>
+  </form>
+</md-dialog>

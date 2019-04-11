@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+md-dialog {
+	min-width: 75%;
+	min-height: 75%;
+}
+
+
+.enlarge_item_image {
+	width: 90%;
+	height: 90%;
+}
+
+.itemImage {
+  max-width: 100%;
+  max-height: 180px;
+}
+
+.itemNormalText {
+  vertical-align : middle;
+}
+
+.addDeleteImagePreview {
+  width: 50%
+}
+
+.addSentencePreview {
+  width: 100%;
+  font-style: italic;
+  font-size: 25px;
+  border: 1px dashed #000;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  background: pink;
+  line-height: 28px;
+}
+
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
