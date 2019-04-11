@@ -1,0 +1,69 @@
+div#navCategory button{ margin : 5 5% 5 5%; width: 90%; }
+div#navCategory{
+    background: #DCDCDC;
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#navIndex ul li.navIndex{ text-decoration: underline; }
+div#navIndex ul li.navIndex:hover { cursor: pointer; }
+div#navIndex ul li { float: left; margin: 2 4 2 4px; color: #4B0082; }
+div#navIndex ul {background: #FFE4E1;}
+div#navIndex { width: 60%; 
+	height: 40px; 
+	margin-top: 20; 
+	padding-left: 20px; 
+	float: left;
+}
+
+nav#shoppingList span{ color: #00BFFF; margin: 2 4 2 4px; font-size: 15px; font-style:italic;}
+nav#shoppingList div{ display: none; position: absolute; max-width: 100%; overflow: auto; list-style: none;}
+nav#shoppingList div th{font-size: 12px; color:#000000; background: #FFFFFF; height: 20px; width: 25%}
+nav#shoppingList div td{font-size: 12px; color:#000000; text-decoration: underline; font-style:italic; height: 15px;}
+nav#shoppingList div input{width: 100%; max-height: 100%}
+nav#shoppingList:hover div{ display:block; }
+nav#shoppingList 
+nav#shoppingList{
+	width: 25%; height: auto;
+    float: left;
+    margin: 20 0 0 0;
+    display: inline-block;
+    position: relative;
+}
+
+div#displayWrapper h2.productDisc{ color: #00BFFF; margin: 5 10% 5 10%;  }
+div#displayWrapper h2.productPrice{ color: #00BFFF; margin: 5 10% 5 10%; }
+div#displayWrapper button{ float: right; height: auto; margin: 5 10% 5 10%;}
+div#displayWrapper{ width: 75%; padding: 20 5% 20 5%; margin: 0 5% 0 5%; float: left;}
+div#displayWrapper ul li{
+	width: 30%;
+	height: 335px;
+	float: left;
+	margin: 10 10 10 10;
+	border: 1px solid #000000;
+    display: block;
+}
+
+div#displayWrapper_ItemsList {width: 100%; height: auto; display: block}
+div#displayWrapper_ItemsList img.productImag{ max-width: 100%; height: 240px; display: block; padding-top: 5%; margin: auto; cursor: pointer; }
+div#displayWrapper_ItemsList h2.productDisc { cursor: pointer; }
+
+div#displayWrapper_Item {display: block}
+div#displayWrapper_Item div {width: 50%; overflow: auto; float: left; display: block}
+div#displayWrapper_Item img{ max-width: 100%; display: block; padding-top: 5%; margin: auto; }
+div#displayWrapper_Item h2{color:dimgray}
+
+
+
+
+
+
+
+
+
+
+
