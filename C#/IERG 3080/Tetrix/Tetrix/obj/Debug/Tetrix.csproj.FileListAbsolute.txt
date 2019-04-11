@@ -1,0 +1,76 @@
+C:\Users\showing\Desktop\Tetrix\Tetrix\bin\Debug\Tetrix.exe
+C:\Users\showing\Desktop\Tetrix\Tetrix\bin\Debug\Tetrix.pdb
+C:\Users\showing\Desktop\Tetrix\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+C:\Users\showing\Desktop\Tetrix\Tetrix\obj\Debug\Tetrix.Form1.resources
+C:\Users\showing\Desktop\Tetrix\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+C:\Users\showing\Desktop\Tetrix\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+C:\Users\showing\Desktop\Tetrix\Tetrix\obj\Debug\Tetrix.exe
+C:\Users\showing\Desktop\Tetrix\Tetrix\obj\Debug\Tetrix.pdb
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\obj\Debug\Tetrix.exe
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\obj\Debug\Tetrix.pdb
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\bin\Debug\Tetrix.exe
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\bin\Debug\Tetrix.pdb
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\obj\Debug\Tetrix.Form1.resources
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+C:\Users\showing\Desktop\Tetrix Window Form\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\obj\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\obj\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\bin\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\bin\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\obj\Debug\Tetrix.Form1.resources
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+D:\course\3080\C# progrem\Tetrix Window Form way1\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+D:\course\3080\C# progrem\Tetrix\Tetrix\obj\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix\obj\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix\bin\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix\bin\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+D:\course\3080\C# progrem\Tetrix\Tetrix\obj\Debug\Tetrix.Form1.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\obj\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\obj\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\bin\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\bin\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\obj\Debug\Tetrix.Form1.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.0\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\obj\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\obj\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\bin\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\bin\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\obj\Debug\Tetrix.Form1.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix ver1.1\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\bin\Debug\Tetrix.exe
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\bin\Debug\Tetrix.pdb
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Game_Form.resources
+D:\course\3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Menu_Form.resources
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.exe
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.pdb
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\bin\Debug\Tetrix.exe
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\bin\Debug\Tetrix.pdb
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.csprojResolveAssemblyReference.cache
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Game_Form.resources
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Menu_Form.resources
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+D:\course\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.Cache
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\bin\Debug\Tetrix.exe
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\bin\Debug\Tetrix.pdb
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.csprojAssemblyReference.cache
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Game_Form.resources
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Menu_Form.resources
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.Properties.Resources.resources
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.csproj.GenerateResource.cache
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.csproj.CoreCompileInputs.cache
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.exe
+C:\Users\Showing\Downloads\IERG 3080\IERG 3080\C# progrem\Tetrix\Tetrix ver\Tetrix\obj\Debug\Tetrix.pdb
