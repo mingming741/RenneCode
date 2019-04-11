@@ -1,0 +1,17 @@
+body { font-family: PingFangSC-Regular, Verdana, Arial, 微软雅黑, 宋体; font-size: 14px; }
+div { margin: 0; padding: 0; border: 0; overflow: auto; width: 100%}
+ul { margin: 0; padding: 0; border: 0; list-style: none; overflow: auto; }
+h2 {font-size: 14px;}
+button:hover { cursor: pointer; }
+table,td,th { border:1px solid black; }
+
+div#wrapper { margin: 0 auto; width: 1200px; padding: 2% 4% 2% 4%; }
+div#welcome { margin: 0 0 20 0; width: 100%; font-size: 20px; }
+
+div#navGuide #navGuideLeft { float: left; width: auto;}
+div#navGuide #navGuideRight { float: right; width: 40%; }
+div#navGuide{ background: #DCDCDC; color: #FFFFFF; width: 100%; margin: 0 auto; }
+div#navGuide form {float: left; height: auto; margin: 0 2% 0 2%}
+
+div#footer {width: 100%; height: auto; overflow: auto; padding: 20 10% 20 10%;}
+div#footer h2 { color: #00BFFF; }
